@@ -1,7 +1,6 @@
 # Personal Portfolio 
 
-My personal portfolio built with Vue, Bootstrap & Firebase. Everything is included. 
-Written in VueJS, Bootstrap and Tailwind CSS!
+My personal portfolio built with Vue, Bootstrap & Firebase. Everything is included. Written in VueJS, Bootstrap and Tailwind CSS!
 
 <a href="https://personal-portfolio-2102f.web.app/">Visit Now</a>
 
@@ -33,7 +32,7 @@ Written in VueJS, Bootstrap and Tailwind CSS!
 
 ## Porftolio URL
 
-<a href="https://personal-portfolio-2102f.web.app/">Visit Portfolio</a>
+<a href="https://iampaul.netlify.app/">Visit Portfolio</a>
 
 ## Features [특징]
 
@@ -42,8 +41,6 @@ Written in VueJS, Bootstrap and Tailwind CSS!
 -   [Tailwind CSS v3](https://tailwindcss.com)
 -   Vue transitions
 -   Reusable Components
-
-
 -   V-motion Animations
 -   Firebase Config, Hosting
 -   Responsive Bottom Navbar

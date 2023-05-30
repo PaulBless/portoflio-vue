@@ -6,7 +6,7 @@
         <img src="" class="h-6 mr-3 sm:h-10" />
         <span
           class="self-center hover:text-green-600 text-xl font-semibold whitespace-nowrap dark:text-white">
-          MyPortfolio
+          Paul Eshun
         </span>
       </p>
 

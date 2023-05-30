@@ -16,32 +16,26 @@
         <div class="col-lg-6 p-4">
           <h2 class="title-section text-2xl">
             All About
-            <span class="marked">Myself</span>
+            <span class="marked">Paul</span>
           </h2>
           <div class="divider"></div>
 
           <div>
             <p>
-              I’m a Junior Front-End Developer located in South Korea. I learn a
-              serious passion for UI effects,animations and creating intuitive,
-              dynamic user experiences.
+              I am a highly skilled and experienced Software Engineer with a deep understanding of both frontend and backend technologies. 
+              With 5+ years of industry experience, I have successfully delivered robust and scalable web applications that meet client requirements and drive business growth.
             </p>
           </div>
 
           <div>
             <p>
-              I'm a well organized person, problem solver, independent employee
-              with high attention to detail. Fan of Football and Boxing, outdoor
-              activities with my friends, TV series and English literature.
-              Actually, I have been living in South Korea for 5 years, I So i'm
-              also good in Korean.
+              
             </p>
           </div>
 
           <div>
             <p class="hidden lg:flex">
-              And I'm interested in the entire creative frontend spectrum and
-              working on ambitious projects with positive people.
+              
             </p>
           </div>
 
@@ -130,4 +124,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.marked{
+  /* color: #55f978; */
+  /* color: #35bb78; */
+  /* color: #198754; */
+}
+</style>

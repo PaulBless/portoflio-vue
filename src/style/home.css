@@ -76,7 +76,8 @@ a.bg-accent:focus {
 
 a.bg-secondary:hover,
 a.bg-secondary:focus {
-    background-color: #59547c !important;
+    /* background-color: #59547c !important; */
+    background-color: #198754 !important;
 }
 
 .bg-success {
@@ -1598,7 +1599,7 @@ a.text-dark:focus {
 
 .title-section .marked {
     position: relative;
-    color: #6C55F9;
+    color: #198754;
 }
 
 .title-section .marked::before {

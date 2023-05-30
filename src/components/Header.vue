@@ -6,27 +6,29 @@
           <div class="col-lg-6 py-3 wow fadeInUp">
             <p
               class="text-green-600 hover:text-green-500 text-2xl lg:text-4xl font-medium lg:font-semibold mb-5 lg:leading-normal leading-snug">
-              HI, I'm ANASKHON
+              Hi, I'm PAUL
               <br />
-              Front-End Developer,
+              Full Stack Developer,
               <br />
-              Blockchain Engineer
+              API Developer
             </p>
             <p
               class="hidden lg:block text-2xl mb-5">
-              I like to craft solid and scalable frontend products with great
-              user experiences.
+              I focus to deliver robust and scalable 
+              web applications that meet client requirements 
+              and drive business growth.
             </p>
 
             <router-link
               to="/about"
               name="fade"
-              class="btn btn-outline border text-secondary">
+              class="btn btn-outline border-success text-secondary link">
               About
             </router-link>
             <a
-              href="#"
-              class="btn btn-primary btn-split ml-2">
+              href="https://drive.google.com/file/d/1uNPJABGXLZAcEXE5ZqFJVyP-r_6dljmF/view?usp=drive_link"
+              target="_blank"
+              class="btn btn-success btn-split ml-2 link">
               Resume
               <div class="fab"><span class="mai-play"></span></div>
             </a>
