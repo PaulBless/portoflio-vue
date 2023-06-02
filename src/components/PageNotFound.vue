@@ -12,7 +12,7 @@
               <div class="contant_box_404">
                 <h3 class="h2">Look like you're lost</h3>
 
-                <p>the page you are looking for not avaible!</p>
+                <p>the page you are looking for not available!</p>
 
                 <router-link to="/" class="link_404">Go to Home</router-link>
               </div>

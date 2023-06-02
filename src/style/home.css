@@ -1473,6 +1473,14 @@ a.text-dark:focus {
     margin: 15px 15px 10px 5px;
 }
 
+.page-heading {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 320px;
+    background-color: #fff;
+    color: #645F88;
+}
 .page-banner {
     position: relative;
     margin-top: 50px;
@@ -1485,12 +1493,12 @@ a.text-dark:focus {
 
 .page-banner1 {
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 100px;
-    height: 320px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 180px;
     background-color: #F6F5FC;
     color: #645F88;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .page-banner2 {
@@ -1639,7 +1647,7 @@ a.text-dark:focus {
 
 .btn-split .fab {
     display: inline-block;
-    margin-left: 12px;
+    margin-left: 8px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -1972,10 +1980,13 @@ a.text-dark:focus {
     display: block;
     padding-top: 80px;
     padding-bottom: 16px;
-    background-color: #fff;
+    background-color: #0d1840;
     border-top: 1px solid #e9e8f5;
 }
-
+.page-footer .lets-connect p{
+    margin: 0px 0px 1em 0px;
+    color: #fff;
+}
 .page-footer p a {
     transition: color .2s ease;
 }
@@ -1987,9 +1998,11 @@ a.text-dark:focus {
     margin-bottom: 24px;
     font-weight: 600;
 }
-
 .page-footer p {
     color: #898798;
+}
+.page-footer li{
+    color: #fff;
 }
 
 .footer-menu {
@@ -2025,13 +2038,14 @@ a.text-dark:focus {
     line-height: 44px;
     text-align: center;
     border-radius: 50%;
-    background-color: #F6F5FC;
+    background-color: #35bb78;
     color: #898798;
     transition: all .2s linear;
+    margin-right: 0.3em;
 }
 
 .sosmed-button a:hover {
-    background-color: #6C55F9;
+    background-color: #198754;
     color: #fff;
     text-decoration: none;
     transform: rotate(360deg);

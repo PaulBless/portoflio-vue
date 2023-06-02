@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="p-3 border-gray-200 rounded bg-green-50 dark:bg-gray-800 dark:border-gray-700">
+    class="p-3 border-gray-200 rounded bg-green-100 dark:bg-gray-800 dark:border-gray-700">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <p class="flex items-center hover:no-underline">
-        <img src="" class="h-6 mr-3 sm:h-10" />
+      <p class="flex items-center hover:underline">
+        <img src="../assets/img/iampaul.png" class="h-6 mr-5 sm:h-10 hidden" />
         <span
           class="self-center hover:text-green-600 text-xl font-semibold whitespace-nowrap dark:text-white">
           Paul Eshun
@@ -16,11 +16,11 @@
           <li>
             <router-link
               to="/"
-              class="flex items-center hover:-mt-1 hover:no-underline bg-green-50 p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              class="flex items-center hover:text-green-700 hover:underline bg-green-50 p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
               aria-current="page">
               <svg
                 aria-hidden="true"
-                class="flex-shrink-0 w-6 h-6 text-green-500 transition duration-75 hover:-mt-1 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                class="flex-shrink-0 w-6 h-6 text-green-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@
           <li>
             <router-link
               to="/projects"
-              class="flex items-center hover:-mt-1 hover:no-underline p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              class="flex items-center hover:text-green-700 hover:underline p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
               aria-current="page">
               <svg
                 aria-hidden="true"
@@ -49,14 +49,15 @@
               <span class="flex-1 ml-2 whitespace-nowrap">Projects</span>
             </router-link>
           </li>
+          
           <li>
             <router-link
               to="/about"
-              class="flex items-center p-2 ml-2 hover:-mt-1 hover:no-underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              class="flex items-center p-2 ml-2 hover:text-green-700 hover:underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
               aria-current="page">
               <svg
                 aria-hidden="true"
-                class="flex-shrink-0 w-6 h-6 text-green-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                class="flex-shrink-0 w-6 h-6 text-green-500 hover:text-green-700 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
@@ -68,10 +69,27 @@
               <span class="flex-1 ml-2 whitespace-nowrap">About</span>
             </router-link>
           </li>
+          
+          <li>
+            <router-link
+              to="/contact"
+              class="flex items-center p-2 ml-2 hover:text-green-700 hover:underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              aria-current="page">
+
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#198754">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                <g id="SVGRepo_iconCarrier"> 
+                <path d="M3.51089 2L7.15002 2.13169C7.91653 2.15942 8.59676 2.64346 8.89053 3.3702L9.96656 6.03213C10.217 6.65159 10.1496 7.35837 9.78693 7.91634L8.40831 10.0375C9.22454 11.2096 11.4447 13.9558 13.7955 15.5633L15.5484 14.4845C15.9939 14.2103 16.5273 14.1289 17.0314 14.2581L20.5161 15.1517C21.4429 15.3894 22.0674 16.2782 21.9942 17.2552L21.7705 20.2385C21.6919 21.2854 20.8351 22.1069 19.818 21.9887C6.39245 20.4276 -1.48056 1.99997 3.51089 2Z" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+              </svg>
+              <span class="flex-1 ml-2 whitespace-nowrap">Contact</span>
+            </router-link>
+          </li>
           <li>
             <router-link
               to="/blog"
-              class="flex items-center p-2 ml-2 hover:-mt-1 hover:no-underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              class="flex hidden items-center p-2 ml-2 hover:text-green-700 hover:underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
               aria-current="page">
               <svg
                 aria-hidden="true"
@@ -88,11 +106,9 @@
             </router-link>
           </li>
 
-          <li></li>
-          <li></li>
-
+          <!-- language link item -->
           <li
-            class="hidden lg:flex items-center border border-gray-500 hover:bg-green-100 rounded-lg px-4 py-1 md:order-2">
+            class="hidden invisible lg:flex items-center border border-gray-500 hover:bg-green-100 rounded-lg px-4 py-1 md:order-2">
             <button
               type="button"
               data-dropdown-toggle="language-dropdown-menu"
@@ -135,6 +151,7 @@
 
               English
             </button>
+            <!-- language dropdown -->
             <div
               class="z-50 hidden my-2 p-3 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700"
               id="language-dropdown-menu">
@@ -223,6 +240,7 @@ export default {
   data() {
     return {
       active: 0,
+      logo: '../assets/dev.png',
     };
   },
   methods: {
@@ -234,6 +252,9 @@ export default {
 </script>
 
 <style>
+.tester-color{
+  color: #123456;
+}
 .fade-nav-enter-active,
 .fade-nav-leave-active {
   transition: opacity 0.5s ease;

@@ -2,7 +2,7 @@
   <div class="bg-green-50 page-section pt-5 -mb-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 py-3 wow zoomIn">
+        <div class="col-lg-6 py-3" data-aos="zoom-in" data-aos-duration="4000">
           <div class="img-place text-center hidden lg:flex">
             <lottie-player
               src="https://assets2.lottiefiles.com/packages/lf20_qhrndegx.json"
@@ -21,27 +21,38 @@
           <div class="divider"></div>
 
           <div>
-            <p>
-              I am a highly skilled and experienced Software Engineer with a deep understanding of both frontend and backend technologies. 
-              With 5+ years of industry experience, I have successfully delivered robust and scalable web applications that meet client requirements and drive business growth.
+            <p data-aos="fade-up">
+              I am a highly skilled and experienced Software Engineer who is well-versed in both frontend and backend technologies. With over 5 years of hands-on industry expertise, 
+              I've successfully produced robust and scalable web apps that satisfy customer needs and promote business growth.
             </p>
           </div>
 
           <div>
-            <p>
-              
+            <p data-aos="fade-up">
+              My interest in technology and programming sparked when I was teaching ICT as a Pupil's teacher after high school.
+              So, I pursued a degree in Computer Science, eager to deepen my understanding of software development. 
+              During my studies, I learnt several programming languages like Java, C++, PHP, and Python where I developed a strong foundation in algorithm design and data structures.
             </p>
           </div>
 
           <div>
-            <p class="hidden lg:flex">
-              
+            <p data-aos="fade-up">
+              Upon graduation, I embarked on my professional journey as a software developer. I started work with <span class="marked">Jecmas,</span> in 2017, 
+              where I honed my skills in web development using technologies like HTML, CSS, and JavaScript. 
+              I gained expertise in translating mockups into appealing, interactive and user-friendly interfaces.
             </p>
           </div>
 
+          <div>
+            <p class="hidden lg:flex" data-aos="fade-up">
+              I'm a well organized person, problem solver, strong communicator, team player and independent with high attention to detail. 
+              Fan of Volleyball and TV series. I'm proficient in English, and a beginner in German.
+              
+            </p>
+          </div>
+        
           <div class="img-place mb-3"></div>
-          <a href="#" class="btn btn-primary">More Details</a>
-          <a href="#" class="btn btn-outline border ml-2">Success Stories</a>
+          
         </div>
       </div>
     </div>
@@ -53,37 +64,39 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 p-4 -mt-9 lg:mt-0">
-          <h2 class="title-section text-2xl">
+          <h2 class="title-section text-2xl" data-aos="slide-right">
             My
             <span class="marked">Skills & Experiences</span>
           </h2>
           <div class="divider"></div>
           <p class="mb-4">
-            I graduated from Chonnam National University three months ago with a
-            bachelor’s in Computer Engineering. My experiences in school gave me
-            strong communication and networking skills, which are crucial for
-            event planning.
+            I hold a Bachelor’s Degree in Computer Science from Valley View University, Ghana. 
+            My experiences in school and research projects gave me strong communication, collaboration and networking skills, 
+            which are integral to my work style.
           </p>
+          
           <p class="mb-4">
-            I create successful responsive websites that are fast, easy to use,
-            and built with best practices. The main area of my expertise is
-            front-end development, HTML, CSS, JS, building small and simple web
-            apps,features, animations, and coding interactive. layouts.
+            On the frontend, I excel in HTML, CSS, and JavaScript, along with popular frontend frameworks such as React and Vue.js. 
+            I have a keen eye for detail and a strong focus on creating intuitive and engaging user interfaces. 
+            My expertise in responsive design ensures that applications look and function flawlessly across different devices and screen sizes.
+            
           </p>
 
-          <p class="mb-5 hidden lg:flex">
-            I also have experiences with building Nft Smart Contract and
-            Blockchain Solutions as freelancer developer in South Korea. Since
-            beginning my journey as a freelance developer nearly 10 months ago,
-            I’ve done remote work for agencies, consulted for startups, and
-            collaborated with talented people to create Nfts,Smart Contracts and
-            Dapps for both business and consumer use.
+          <p class="mb-4">
+            In backend development, I'm proficient in PHP and JavaScript frameworks including Laravel and Express. I can employ them to build powerful and efficient server-side logic. 
+            I have a solid understanding of database management systems, such as MySQL and MongoDB, and can design and optimize complex database structures. 
+            Additionally, I have experience working with RESTful APIs, integrating third-party services, and implementing secure authentication and authorization systems.
+            
           </p>
 
-          <router-link to="/blog" class="btn btn-primary">My Blogs</router-link>
-          <router-link to="/projects" class="btn btn-outline ml-2">
-            My Projects
-          </router-link>
+          <p class="mb-4">
+            I possess a blend of unique traits and qualities that equip me to create innovative and 
+            efficient web applications that drive business success while providing an exceptional user experience.
+          </p>
+
+          <!-- TODO: Reactivate buttons after working on respective pages-->
+          <!-- <router-link to="/blog" class="btn btn-primary">My Blogs</router-link> -->
+          <!-- <router-link to="/projects" class="btn btn-outline ml-2">My Projects </router-link> -->
         </div>
         <div class="col-lg-6 py-3 wow zoomIn">
           <div class="img-place text-center">

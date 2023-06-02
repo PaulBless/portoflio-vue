@@ -35,10 +35,9 @@
                 </div>
               </div>
               <div>
-                <h4>Blockchain</h4>
+                <h4>Back End</h4>
                 <p>
-                  I also learn and work as Blockchain & Smart Contract
-                  freelancer developer.
+                  I employ best design patterns to build powerful and efficient server-side logic.
                 </p>
               </div>
             </div>
@@ -55,10 +54,9 @@
                   style="width: 150px; height: 150px"></lord-icon>
               </div>
               <div>
-                <h5>Mobile Apps</h5>
+                <h5>API Design</h5>
                 <p>
-                  I also highly interested in Native & Hybrid mobile app
-                  development.
+                  I leverage my experience to develop, implement and integrate REST API-based services.
                 </p>
               </div>
             </div>

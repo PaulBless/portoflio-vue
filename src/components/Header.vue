@@ -3,10 +3,10 @@
     <div class="page-banner home-banner">
       <div class="container h-100">
         <div class="row align-items-center h-100">
-          <div class="col-lg-6 py-3 wow fadeInUp">
+          <div class="col-lg-6 py-3" data-aos="slide-right">
             <p
               class="text-green-600 hover:text-green-500 text-2xl lg:text-4xl font-medium lg:font-semibold mb-5 lg:leading-normal leading-snug">
-              Hi, I'm PAUL
+              Hi, I'm Paul Eshun
               <br />
               Full Stack Developer,
               <br />
@@ -22,21 +22,25 @@
             <router-link
               to="/about"
               name="fade"
-              class="btn btn-outline border-success text-secondary link">
-              About
+              class="btn btn-outline border-secondary text-secondary link">
+              About Me
             </router-link>
             <a
               href="https://drive.google.com/file/d/1uNPJABGXLZAcEXE5ZqFJVyP-r_6dljmF/view?usp=drive_link"
               target="_blank"
               class="btn btn-success btn-split ml-2 link">
               Resume
-              <div class="fab"><span class="mai-play"></span></div>
+              <div class="fab">
+                <span class="mai-play"></span>
+              </div>
             </a>
           </div>
-          <div class="col-lg-6 wow zoomIn">
+          <div class="col-lg-6" data-aos="zoomIn">
             <div
               class="m-3 lg:m-3 p-1 lg:p-5">
+              <img src="../assets/img/iampaul.png" alt="Paul" class="hidden">
               <lottie-player
+                class="hiddenn"
                 src="https://assets2.lottiefiles.com/packages/lf20_gnb0jsok.json"
                 background="transparent"
                 speed="1"

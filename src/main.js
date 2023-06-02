@@ -8,6 +8,9 @@ import router from './router/router.js';
 import './data/projects.js';
 import './style/home.css';
 import './style/tailwind.css';
+import 'animate.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import { MotionPlugin } from '@vueuse/motion'
 
@@ -27,25 +30,26 @@ const firebaseConfig = {
     measurementId: "G-224X2F5XH8",
 };
 
-// firebase init 설정
+// firebase init
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-// db나 auth 같이 사용
+// db나 auth
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 
 export { auth, db };
 
 
+AOS.init()
 import jQuery from "jquery";
 const $ = jQuery;
 window.$ = $;
 
 
-
 const app = createApp(App);
 
 app.use(MotionPlugin);
+app.use(AOS);
 app.use(router);
 
 
