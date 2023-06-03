@@ -1,13 +1,16 @@
 <template>
   <footer class="page-footer">
-    <div class="container">
+    <div class="container align-contentcenter">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-3 py-3 lets-connect">
-          <h3>Let's Connect</h3>
-          <p>Skype: <a href="https://join.skype.com/invite/EUKrxknC7opb">live:paulbless_3</a></p>
-          <p>Email: <a href="mailto:eshunbless1@gmail.com">eshunbless1@gmail.com</a></p>
-          <p>Mobile: <a> +233 241 565 520 </a></p>
-          <p>WhatsApp: <a> +233 241 565 520 </a></p>
+          <h5>Let's Connect</h5>
+          <ul class="footer-menu">
+            <li class="nav-item active">Skype: <a href="https://join.skype.com/invite/EUKrxknC7opb">live:paulbless_3</a></li>
+            <li class="nav-item">Email: <a href="mailto:eshunbless1@gmail.com">eshunbless1@gmail.com</a></li>
+            <li class="nav-item">Calendly: <a href="https://calendly.com/eshunbless1" target="_blank">Let's Talk</a></li>
+            <li class="nav-item">Mobile: <a href="tel:233241565520">+233 241 565 520</a></li>
+            <li class="nav-item">WhatsApp: <a href="https://api.whatsapp.com/send?phone=233241565520">+233 241 565 520</a></li>
+          </ul>
         </div>
         <div class="col-lg-3 py-3 specialties">
           <h5>My Specialties</h5>
@@ -57,7 +60,8 @@
             <a href="https://linkedin.com/in/paul-eshun" target="_blank"><span class="mai-logo-linkedin"></span></a>
             <a href="https://twitter.com/@eshunbless1" target=_blank><span class="mai-logo-twitter"></span></a>
             <a href="https://github.com/PaulBless" target="_blank"><span class="mai-logo-github"></span></a>
-            <a href="https://discord.com/channels/@me" target="_blank"><span class="mai-logo-discord"></span></a>
+            <a href="https://api.whatsapp.com/send?phone=233241565520" target="_blank"><span class="mai-logo-whatsapp"></span></a>
+            <!-- <a href="https://discord.com/channels/@me" target="_blank"><span class="mai-logo-discord"></span></a> -->
           </div>
         </div>
       </div>
@@ -183,31 +187,27 @@
             <p class="whitespace-nowrap">About</p>
           </div>
         </router-link>
-<!--         
+        
         <router-link
-          to="/blog"
+          to="/contact"
           class="flex flex-col items-center justify-center">
           <div
             class="flex items-center hover:no-underline hover:text-green-500 mt-1 text-gray-900 rounded-lg dark:text-white hover:bg-blue-100 dark:hover:bg-gray-700"
             aria-current="page">
-            <svg
-              aria-hidden="true"
-              class="flex-shrink-0 w-6 h-6 text-green-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                d="M1 5.25A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25v9.5A2.25 2.25 0 0116.75 17H3.25A2.25 2.25 0 011 14.75v-9.5zm1.5 5.81v3.69c0 .414.336.75.75.75h13.5a.75.75 0 00.75-.75v-2.69l-2.22-2.219a.75.75 0 00-1.06 0l-1.91 1.909.47.47a.75.75 0 11-1.06 1.06L6.53 8.091a.75.75 0 00-1.06 0l-2.97 2.97zM12 7a1 1 0 11-2 0 1 1 0 012 0z"></path>
-            </svg>
+            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#198754">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                <g id="SVGRepo_iconCarrier"> 
+                <path d="M3.51089 2L7.15002 2.13169C7.91653 2.15942 8.59676 2.64346 8.89053 3.3702L9.96656 6.03213C10.217 6.65159 10.1496 7.35837 9.78693 7.91634L8.40831 10.0375C9.22454 11.2096 11.4447 13.9558 13.7955 15.5633L15.5484 14.4845C15.9939 14.2103 16.5273 14.1289 17.0314 14.2581L20.5161 15.1517C21.4429 15.3894 22.0674 16.2782 21.9942 17.2552L21.7705 20.2385C21.6919 21.2854 20.8351 22.1069 19.818 21.9887C6.39245 20.4276 -1.48056 1.99997 3.51089 2Z" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+              </svg>
           </div>
           <div
             class="flex items-center justify-center mt-1 hover:text-green-500 text-green-900 font-medium rounded-lg dark:text-white hover:bg-blue-100 dark:hover:bg-gray-700"
             aria-current="page">
-            <div class="whitespace-nowrap">Blogs</div>
+            <div class="whitespace-nowrap">Contact</div>
           </div>
-        </router-link> -->
+        </router-link>
       </div>
     </div>
   </div>

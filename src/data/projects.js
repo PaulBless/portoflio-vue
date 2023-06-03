@@ -5,7 +5,7 @@ export default [
     content:
       "Personal Portfolio Built with VueJs, HTML5, Bootstrap, EmailJS & Firebase to showcase my skills & Experience",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/portfolio.png?alt=media&token=a473b7b7-1ca0-4783-a591-ce667cff7c9d",
+      "/works/portfolio.png",
     tech1:
       "https://img.shields.io/badge/VueJS-439A97?style=flat&logo=Vue.js&logoColor=white",
     tech2:
@@ -31,7 +31,7 @@ export default [
     tech3:
       "https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white",
     live: "https://vueblog-13514.web.app/",
-    code: "https://github.com/anaskhonprime/prime-blogs",
+    code: "https://github.com/paulbless/prime-blogs",
   },
 
   {
@@ -49,7 +49,7 @@ export default [
       "https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white",
 
     live: "https://vueblog-13514.web.app/",
-    code: "https://github.com/anaskhonprime/react-eth-mint-dapp",
+    code: "https://github.com/paulbless/react-eth-mint-dapp",
   },
 
   {
@@ -66,7 +66,7 @@ export default [
     tech3:
       "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white",
     live: "https://reactprime505.web.app/",
-    code: "https://github.com/anaskhonprime",
+    code: "https://github.com/paulbless",
   },
 
   {
@@ -81,7 +81,7 @@ export default [
       "https://img.shields.io/badge/Remix-000000?style=flat&logo=Remix&logoColor=white",
     tech1:
       "https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=Ethereum&logoColor=white",
-    live: "https://github.com/anaskhonprime",
-    code: "https://github.com/anaskhonprime",
+    live: "https://github.com/paulbless",
+    code: "https://github.com/paulbless",
   },
 ];

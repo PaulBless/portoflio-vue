@@ -31,7 +31,7 @@
 
           <p class="mb-4 " data-aos="fade-up">
             I possess a blend of unique traits and qualities that equip me to create innovative and 
-            efficient web applications that drive business success while providing an exceptional user experience.
+            efficient web applications and software solutions that drive business success while providing an exceptional user experience.
           </p>
 
           <!-- TODO: Reactivate buttons after working on respective pages-->

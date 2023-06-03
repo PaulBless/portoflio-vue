@@ -107,10 +107,7 @@
           </li>
 
           <!-- language link item -->
-          <li
-            class="hidden lg:flex items-center border border-gray-500 hover:bg-green-100 rounded-lg px-4 py-1 md:order-2">
-            
-          </li>
+          
         </ul>
       </div>
     </div>

@@ -3,7 +3,7 @@
 
   <!-- page title -->
   <div class="hidden lg:block container mt-5">
-    <div class="page-section">
+    <div class="page-banner1">
       <div class="row justify-content-center align-items-center h-100">
         <div class="col-md-6">
           <nav aria-label="Breadcrumb">

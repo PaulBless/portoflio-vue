@@ -1,7 +1,10 @@
-<template>
+<template>  
+  <div class="">
+
   <Navbar />
-  
-  <div class="hidden lg:block container mt-5">
+
+  <!-- page title -->
+  <div class="hidden lg:block container mt-0">
     <div class="page-banner1">
       <div class="row justify-content-center align-items-center h-100">
         <div class="col-md-6">
@@ -13,34 +16,43 @@
               <li class="breadcrumb-item active">Projects</li>
             </ul>
           </nav>
-          <h1 class="text-center">My Projects</h1>
+          <h1 class="text-center">Take a look of some of my works!</h1>
+          <p class="text-center">          
+            I bring a comprehensive skill set, a strong work ethic, and a passion for delivering high-quality solutions to every project I undertake. 
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="">
-    
 
-    <div
-      class="page-section bg-green-50">
+  <div class="hidden lg:block lg:items-center lg:justify-center mt-0" style="display: none;">
+    <div class="page-banner1 p-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          I bring a comprehensive skill set, a strong work ethic, and a passion for delivering high-quality solutions to every project I undertake. 
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="page-section bg-green-50">
       <div class="container">
         <div class="row my-5 card-blog-row">
-          <div class="relative lg:hidden col-md-6 col-lg-3 py-3 wow fadeInUp">
+          <div class="relative lg:hidden col-md-6 col-lg-3 py-3 " data-aos="fade-up">
             <div class="card-blog">
               <div class="header">
                 <div class="entry-footer">
-                  <div class="post-author">Welcome to the Projects</div>
-                  <a href="#" class="post-date"></a>
+                  <div class="post-author">Welcome to my projects</div>
                 </div>
               </div>
               <div class="body">
                 <div class="post-title">
                   <a>
-                    Share My Knowledge
+                    My Knowledge Area
                     <br />
                     Research Skills
                     <br />
-                    Makes More Employable
+                    Clients Projects
                   </a>
                 </div>
               </div>
@@ -63,7 +75,7 @@
                   <a>{{ project[i].name }}</a>
                 </div>
                 <div
-                  class="text-base h-18 lg:h-12 text-gray-700 ml-3 mr-3 mb-2">
+                  class="text-base h-18 lg:h-12 text-gray-700 ml-3 mr-3 mb-5">
                   {{ project[i].content }}
                 </div>
 
@@ -101,7 +113,8 @@
 </template>
 
 <script>
-import ProjectData from "../data/projects.js";
+// import ProjectData from "../data/projects.js";
+import ProjectData from "../data/works.js";
 
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";

@@ -1,28 +1,31 @@
 <template>
     <div class="container">
-        <form @submit.prevent="sendEmail">
+        <form ref="form" @submit.prevent="sendEmail1">
           <label>Name</label>
           <input 
             type="text" 
             v-model="name"
-            name="name"
+            name="user_name"
             placeholder="Your Name"
+            required
           >
           <label>Email</label>
           <input 
             type="email" 
             v-model="email"
-            name="email"
+            name="user_email"
             placeholder="Your Email"
+            required
             >
           <label>Message</label>
           <textarea 
             name="message"
             v-model="message"
             cols="30" rows="5"
-            placeholder="Message">
+            placeholder="Message" required>
           </textarea>
-          
+          <!-- We are A Software Company, we must say we're in love 
+            with your skills and would liek to discuss a job role with you. Please revert your availability -->
           <input type="submit" value="Send">
         </form>
     </div>
@@ -32,7 +35,7 @@
 import emailjs from 'emailjs-com';
 
 export default {
-  name: 'ContactUs',
+  name: 'ContactForm',
   data() {
     return {
       name: '',
@@ -41,21 +44,33 @@ export default {
     }
   },
   methods: {
+    sendEmail1() {
+      emailjs.sendForm('service_0revyqo', 'template_udy96jx', this.$refs.form, 'jdLkCpYYML_zJsZ4q')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+        }, (error) => {
+            console.log('FAILED...', error.text);
+        });
+    },
     sendEmail(e) {
       try {
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID', {
-          name: this.name,
-          email: this.email,
+        emailjs.sendForm('service_0revyqo', 'template_udy96jx', e.target, 'jdLkCpYYML_zJsZ4q', {
+          from_name: this.name,
+          from_email: this.email,
           message: this.meessage
         })
 
+        alert("email sent");
+
       } catch (err) {
+        console.log(err);
            if (err instanceof ReferenceError) {
             alert( "JSON Error: " + err.message );
            } else {
             throw err; // rethrow
            }
       }
+      
       // Reset form field
       this.name = ''
       this.email = ''

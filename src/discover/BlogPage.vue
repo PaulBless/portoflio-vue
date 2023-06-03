@@ -121,7 +121,7 @@
 </template>
 
 <script>
-import Data from "../data/data.js";
+// import Data from "../data/data.js";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -129,7 +129,7 @@ export default {
   name: "Blog Page",
   data() {
     return {
-      blog: Data,
+      blog: [],
     };
   },
 

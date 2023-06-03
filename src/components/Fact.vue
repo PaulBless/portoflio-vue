@@ -1,7 +1,6 @@
 <template>
     <div class="hidden lg:flex lg:items-center lg:justify-center"   style="background: #4be1bc ;">
-      <div class="page-section features" style="background: #4be1bc ;"
-  >
+      <div class="page-section features" style="background: #4be1bc ;">
         <div class="container">
           <div class="row justify-content-center">
             <div
@@ -14,7 +13,7 @@
                     style="width: 150px; height: 150px"></lord-icon>
                 </div>
                 <div>
-                  <h>Front End</h>
+                  <h>Projects</h>
                   <p>
                     I like to craft solid and scalable frontend products with
                     great user experiences.
@@ -36,7 +35,7 @@
                   </div>
                 </div>
                 <div>
-                  <h4>Back End</h4>
+                  <h4>Happy Clients</h4>
                   <p>
                     I employ best design patterns to build powerful and efficient server-side logic.
                   </p>
@@ -55,7 +54,7 @@
                     style="width: 150px; height: 150px"></lord-icon>
                 </div>
                 <div>
-                  <h5>API Design</h5>
+                  <h5>Customer Satisfaction </h5>
                   <p>
                     I leverage my experience to develop, implement and integrate REST API-based services.
                   </p>
