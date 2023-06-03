@@ -3,7 +3,7 @@ export default [
     name: "Personal Portfolio",
     id: 1,
     content:
-      "Personal Portfolio Built with VueJs, Bootstrap & Firebase with SignUp & Login Pages",
+      "Personal Portfolio Built with VueJs, HTML5, Bootstrap, EmailJS & Firebase to showcase my skills & Experience",
     image:
       "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/portfolio.png?alt=media&token=a473b7b7-1ca0-4783-a591-ce667cff7c9d",
     tech1:
@@ -13,8 +13,8 @@ export default [
     tech3:
       "https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white",
 
-    live: "https://personal-portfolio-2102f.web.app/",
-    code: "https://github.com/anaskhonprime/personal.github.io",
+    live: "https://iampaul.netlify.app/",
+    code: "https://github.com/paulbless/portfolio-vue.git",
   },
 
   {
@@ -35,10 +35,10 @@ export default [
   },
 
   {
-    name: "ReactJs Based Mobile Dapp ",
+    name: "Hems",
     id: 3,
     content:
-      "Simple Blog Web Application built with VueJs, Firebase and Tailwind CSS, Admin Dashboard",
+      "Hospital Equipment Management System built with Laravel, MySQL, Bootstrap, HTML/CSS and Tailwind CSS, AdminLite",
     image:
       "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/my%20(1).png?alt=media&token=caa1326b-49b3-412f-a461-059829caf91b",
     tech1:
@@ -53,7 +53,7 @@ export default [
   },
 
   {
-    name: "Ethereum Dapp",
+    name: "Currency Converter",
     id: 4,
     content:
       "Ethereum Mainnet Minting App Development, BeyondFood Nft Public Sales",

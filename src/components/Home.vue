@@ -2,7 +2,7 @@
   <Navbar />
   <Header />
   <Services />
-  <About />
+  <Intro />
   <Personality />
 
   <!-- <ContactForm /> -->
@@ -15,7 +15,7 @@
 import Navbar from "./Navbar.vue";
 import Header from "./Header.vue";
 import Services from "./Services.vue";
-import About from "./About.vue";
+import Intro from "./Intro.vue";
 import Projects from "./Projects.vue";
 import Contact from "./Contact.vue";
 import Blog from "./Blog.vue";
@@ -37,7 +37,7 @@ export default {
     Navbar,
     Header,
     Services,
-    About,
+    Intro,
     Projects,
     Contact,
     Blog,

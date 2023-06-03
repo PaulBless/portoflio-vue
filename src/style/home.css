@@ -1464,6 +1464,13 @@ a.text-dark:focus {
     background-color: #fff;
     overflow: hidden;
 }
+.page-title {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: #F6F5FC;
+    overflow: hidden;
+}
 
 .page-section p {
     color: #736f90;
@@ -1689,7 +1696,7 @@ a.text-dark:focus {
 }
 
 .features {
-    padding-top: 120px;
+    padding-top: 70px;
     padding-bottom: 50px;
     border-top: 1px solid #e9e8f5;
     border-bottom: 1px solid #e9e8f5;
@@ -1984,7 +1991,7 @@ a.text-dark:focus {
     border-top: 1px solid #e9e8f5;
 }
 .page-footer .lets-connect p{
-    margin: 0px 0px 1em 0px;
+    margin: 0px 0px 0.6em 0px;
     color: #fff;
 }
 .page-footer p a {
@@ -1994,7 +2001,8 @@ a.text-dark:focus {
 .page-footer h3,
 .page-footer h4,
 .page-footer h5 {
-    color: #645F88;
+    /* color: #645F88; */
+    color: #35bb78;
     margin-bottom: 24px;
     font-weight: 600;
 }

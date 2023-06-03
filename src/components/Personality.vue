@@ -1,5 +1,5 @@
 <template>
-     <div class="bg-green-50 py-5 page-section">
+    <div class="bg-green-50 py-5 page-section">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="text-2xl mb-3">My Personality as Developer</div>
@@ -77,8 +77,8 @@
             <lord-icon
                 src="https://cdn.lordicon.com/mjmrmyzg.json"
                 trigger="hover"
-                style="width:150px;height:150px">
-            </lord-icon>
+                style="width:150px;height:150px"
+                class="hidden lg:flex"></lord-icon>
 
             <div class="text-2xl font-semibold text-green-800 mt-4 pl-1" data-aos="fade-up">
                 Collaboration & Teamwork

@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-green-50 hidden lg:flex lg:items-center lg:justify-center">
-    <div class="bg-green-50 page-section features">
+  <div class="bg-green-100 hidden lg:flex lg:items-center lg:justify-center" >
+    <div class="bg-green-100 page-section features">
       <div class="container">
         <div class="row justify-content-center">
           <div
-            class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            class="col-md-6 col-lg-4 py-3 " data-aos="fade-up">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
                 <lord-icon
@@ -24,7 +24,7 @@
 
           <div
             
-            class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            class="col-md-6 col-lg-4 py-3" data-aos="fade-up">
             <div class="d-flex flex-row">
               <div class="">
                 <div class="img-fluid mr-3">
@@ -45,7 +45,7 @@
 
           <div
            
-            class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            class="col-md-6 col-lg-4 py-3" data-aos="fade-up">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
                 <lord-icon

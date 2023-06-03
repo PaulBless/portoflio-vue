@@ -57,7 +57,7 @@
             <a href="https://linkedin.com/in/paul-eshun" target="_blank"><span class="mai-logo-linkedin"></span></a>
             <a href="https://twitter.com/@eshunbless1" target=_blank><span class="mai-logo-twitter"></span></a>
             <a href="https://github.com/PaulBless" target="_blank"><span class="mai-logo-github"></span></a>
-            <a href="https://discord.com/PaulBless" target="_blank"><span class="mai-logo-discord"></span></a>
+            <a href="https://discord.com/channels/@me" target="_blank"><span class="mai-logo-discord"></span></a>
           </div>
         </div>
       </div>

@@ -1,14 +1,16 @@
 <template>
+  <Navbar />
+  
   <div class="page-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
-          <h2 class="title-section">Contact information</h2>
+          <h2 class="title-section">Contact Information</h2>
           <div class="divider"></div>
           <p>
             Great genius takes shape by contact with another great genius,
             <br />
-            but, less by assimilation than by friction.
+            but, less by assimilation than by friction. - Heinrich Heine
           </p>
 
           <ul class="contact-list">
