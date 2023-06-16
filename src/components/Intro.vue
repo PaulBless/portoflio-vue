@@ -15,8 +15,7 @@
 
         <div class="col-lg-6 p-4">
           <h2 class="title-section text-2xl">
-            I am
-            <span class="marked">Paul</span>
+            I am <span class="marked">Paul</span>
           </h2>
           <div class="divider"></div>
 

@@ -1,6 +1,6 @@
 <template>
   <footer class="page-footer">
-    <div class="container align-contentcenter">
+    <div class="container align-content-center">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-3 py-3 lets-connect">
           <h5>Let's Connect</h5>

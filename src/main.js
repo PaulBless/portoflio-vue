@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 
 import router from './router/router.js';
+import VueCalendly from 'vue-calendly';
 import './data/projects.js';
 import './style/home.css';
 import './style/tailwind.css';
@@ -50,6 +51,7 @@ const app = createApp(App);
 
 app.use(MotionPlugin);
 app.use(AOS);
+app.use(VueCalendly);
 app.use(router);
 
 

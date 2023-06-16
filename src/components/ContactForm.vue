@@ -1,33 +1,83 @@
 <template>
+  <div class="page-section">
     <div class="container">
-        <form ref="form" @submit.prevent="sendEmail1">
-          <label>Name</label>
-          <input 
-            type="text" 
-            v-model="name"
-            name="user_name"
-            placeholder="Your Name"
-            required
+      <div class="row align-items-center">
+        <div class="col-lg-6 py-3 " data-aos="fade-up">
+          <h2 class="title-section">Contact Information</h2>
+          <div class="divider"></div>
+          <p>
+            Great genius takes shape by contact with another great genius,
+            <br />
+            but, less by assimilation than by friction. - Heinrich Heine
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <div class="icon"><span class="mai-map"></span></div>
+              <div class="content">123 Main Street, Seoul, South Korea</div>
+            </li>
+            <li>
+              <div class="icon"><span class="mai-mail"></span></div>
+              <div class="content"><a href="#">eshunbless1@gmail.com</a></div>
+            </li>
+            <li>
+              <div class="icon"><span class="mai-phone-portrait"></span></div>
+              <div class="content"><a href="#">+233 241 565 520</a></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 py-3" data-aos="fade-up">
+          <h2 class="title-section">Get In Touch</h2>
+          <div class="divider"></div>
+          <p>I'd love to hear from you. Please fill below form.</p>
+          <form action="#">
+            <div class="py-2">
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div class="py-2">
+              <input type="text" class="form-control" placeholder="Email address" />
+            </div>
+            <div class="py-2">
+              <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
+            </div>
+            <div class="py-2">
+            <button type="submit" class="btn btn-primary rounded-pill mt-4">
+              Send Message
+            </button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- .container -->
+  </div>
+    <div class="container">
+      <form ref="form" @submit.prevent="sendEmail1">
+        <label>Name</label>
+        <input 
+          type="text" 
+          v-model="name"
+          name="user_name"
+          placeholder="Your Name"
+          required
+        >
+        <label>Email</label>
+        <input 
+          type="email" 
+          v-model="email"
+          name="user_email"
+          placeholder="Your Email"
+          required
           >
-          <label>Email</label>
-          <input 
-            type="email" 
-            v-model="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            >
-          <label>Message</label>
-          <textarea 
-            name="message"
-            v-model="message"
-            cols="30" rows="5"
-            placeholder="Message" required>
-          </textarea>
-          <!-- We are A Software Company, we must say we're in love 
-            with your skills and would liek to discuss a job role with you. Please revert your availability -->
-          <input type="submit" value="Send">
-        </form>
+        <label>Message</label>
+        <textarea 
+          name="message"
+          v-model="message"
+          cols="30" rows="5"
+          placeholder="Message" required>
+        </textarea>
+        <input type="submit" value="Send">
+      </form>
     </div>
 </template>
 

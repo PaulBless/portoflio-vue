@@ -35,10 +35,10 @@ export default [
     },
   
     {
-      name: "Hems",
+      name: "Hospital Equipment Management System",
       id: 3,
       content:
-        "Hospital Equipment Management System built with Laravel, MySQL, Bootstrap, HTML/CSS and Tailwind CSS, AdminLite",
+        "A cutting-edge solution designed to streamline the process of managing and assigning equipment resources",
       image:
         "/works/hems-screen.png",
       tech1:
@@ -65,7 +65,7 @@ export default [
         "https://img.shields.io/badge/Remix-000000?style=flat&logo=Remix&logoColor=white",
       tech3:
         "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white",
-      live: "",
+      live: "https://herokuapp.com",
       code: "https://github.com/paulbless/currency-convertor.git",
     },
   
@@ -90,7 +90,7 @@ export default [
       id: 6,
       content: "ERC721/ERC721A Smart Contract Development, NFT Royalties   ",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-2102f.appspot.com/o/my.png?alt=media&token=c977dd21-dc3a-45c7-a2cc-05635663db41",
+        "/works/pos.png",
       tech3:
         "https://img.shields.io/badge/Solidity-363636?style=flat&logo=Solidity&logoColor=white",
       tech2:
