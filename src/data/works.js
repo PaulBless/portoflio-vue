@@ -40,7 +40,7 @@ export default [
       content:
         "A cutting-edge solution designed to streamline the process of managing and assigning equipment resources",
       image:
-        "/works/hems-screen.png",
+        "/works/p-hems.jpg",
       tech1:
         "https://img.shields.io/badge/ReactJs-7286D3?style=flat&logo=ReactJs&logoColor=green",
       tech2:
@@ -48,7 +48,7 @@ export default [
       tech3:
         "https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white",
   
-      live: "https://hems.phdkwahu.org/",
+      live: "https://hems.phskwahu.org/",
       code: "https://github.com/paulbless/hems",
     },
   
@@ -65,7 +65,7 @@ export default [
         "https://img.shields.io/badge/Remix-000000?style=flat&logo=Remix&logoColor=white",
       tech3:
         "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white",
-      live: "https://herokuapp.com",
+      live: "https://converter.herokuapp.com",
       code: "https://github.com/paulbless/currency-convertor.git",
     },
   

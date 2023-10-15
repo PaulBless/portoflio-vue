@@ -113,7 +113,7 @@
 </template>
 
 <script>
-// import ProjectData from "../data/projects.js";
+
 import ProjectData from "../data/works.js";
 
 import Navbar from "../components/Navbar";

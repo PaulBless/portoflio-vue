@@ -3,8 +3,8 @@
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="text-2xl mb-3">My Personality as Developer</div>
-        <h3 class="title-section">
-          <span>"a unique blend of traits</span> and qualities"
+        <h3 class="title-section ">
+          <span>"I possess a unique blend of traits</span> and qualities"
         </h3>
         <div class="divider mx-auto"></div>
       </div>
@@ -68,6 +68,7 @@
             </p>
             </div>
         </div>
+        
         <!-- 2nd -->
         <div
             class="flex flex-col lg:flex-row items-center justify-evenly space-x-3 h-full text-left mb-5">
